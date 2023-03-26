@@ -3,6 +3,7 @@
 
 # In[ ]:
 
+import torch.nn as nn
 
 def NMSE(x, x_hat):
     x_real = np.reshape(x[:, :, :, 0], (len(x), -1))
